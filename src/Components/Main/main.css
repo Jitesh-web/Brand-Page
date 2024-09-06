@@ -1,0 +1,89 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+#mainInfo {
+  width: 100vw;
+  max-width: 73rem;
+  height: calc(100vh - 5rem);
+  margin: 7rem auto;
+  position: relative;
+}
+
+.mainTitle {
+  font-size: 6rem;
+  line-height: 88px;
+  font-weight: 800;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 32px;
+}
+
+.nikeLogo {
+  position: absolute;
+  top: 80px;
+  right: -56px;
+}
+
+.mainDesc {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: rgba(90, 89, 89, 255);
+  position: relative;
+  z-index: 10;
+}
+
+.shopnowBtn {
+  background-color: rgba(211, 40, 42, 255);
+  padding: 0.5rem 1.5rem;
+  border: none;
+  font-size: 1rem;
+  color: white;
+  font-weight: 600;
+  margin-right: 2.5rem;
+  position: relative;
+  z-index: 10;
+}
+
+.categoryBtn {
+  padding: 0.5rem 1.5rem;
+  border: 1px solid rgb(80, 68, 68);
+  font-size: 1rem;
+  color: rgba(112, 111, 111, 255);
+  font-weight: 600;
+  background-color: white;
+  position: relative;
+  z-index: 10;
+}
+
+.mainText {
+  font-size: 1rem;
+  margin: 2rem 0 1rem 0;
+  color: #818080;
+}
+
+.filpkartImg {
+  object-fit: cover;
+  height: 32px;
+  width: 32px;
+  margin-right: 1rem;
+}
+
+.amazonImg {
+  object-fit: cover;
+  height: 32px;
+  width: 32px;
+}
+
+@media screen and (max-width: 780px) {
+}
